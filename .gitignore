@@ -1,0 +1,26 @@
+# KiCad project personal local settings
+*.kicad_prl
+
+# KiCad backups and autosaves
+*-save.kicad_pcb
+*-save.kicad_sch
+*-bak
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.lck
+
+# DRC, ERC, and fabrication reports
+*.drc
+*.erc
+*.rpt
+
+# Local symbol and footprint caches
+fp-info-cache
+*.net
+
+# Operating system bloat
+.DS_Store
+Thumbs.db
+Desktop.ini
