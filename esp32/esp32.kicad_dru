@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "USB_C_J1_Internal_Clearance"
+   (constraint clearance (min 0.18mm))
+   (condition "A.Parent == 'J1' && B.Parent == 'J1'"))
